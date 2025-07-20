@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DZ Market</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>DZ Market</h1>
+    <p>Учиться проще с DZ Market</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Алгебра</h2>
+      <p>Домашнее задание по алгебре</p>
+      <button class="buy-btn" data-subject="Алгебра">Купить</button>
+      <div class="download-links hidden">
+        <a href="homework1.jpg" target="_blank">📄 Страница 1</a>
+        <a href="homework2.jpg" target="_blank">📄 Страница 2</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Геометрия</h2>
+      <p>Домашнее задание по геометрии</p>
+      <button class="buy-btn" data-subject="Геометрия">Купить</button>
+      <div class="download-links hidden">
+        <a href="homework1.jpg" target="_blank">📄 Страница 1</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Русский язык</h2>
+      <p>Домашнее задание по русскому</p>
+      <button class="buy-btn" data-subject="Русский язык">Купить</button>
+      <div class="download-links hidden">
+        <a href="homework1.jpg" target="_blank">📄 Страница 1</a>
+        <a href="homework2.jpg" target="_blank">📄 Страница 2</a>
+        <a href="homework3.jpg" target="_blank">📄 Страница 3</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="about-text">О нас</p>
+    <div class="tooltip">Продажа домашнего задания</div>
+  </footer>
+
+  <div class="modal hidden" id="modal">
+    <div class="modal-content">
+      <h3>Оплата прошла успешно!</h3>
+      <p>Ваше ДЗ доступно по ссылкам ниже.</p>
+      <button id="close-modal">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
